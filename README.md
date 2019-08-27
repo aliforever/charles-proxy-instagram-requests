@@ -35,6 +35,8 @@ Cheers 🥳
 
 # How to Find Version, VersionCode and Signature Key?
 
+Check User-Agent Header in Requests for version and version code:
+
 ![Check User-Agent Header in Requests for version and version code](https://i.ibb.co/grTDTGD/version-code.png)
 
 ## To Find out Signature
@@ -64,3 +66,6 @@ print('[*] Running sniffer')
 script.load()
 sys.stdin.read()
 ```
+5. Make a Request in Instagram to Get Signature Printed:
+
+![Signature](https://i.ibb.co/2kqDpcy/signature.png)
