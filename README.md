@@ -31,4 +31,36 @@ How to Contibute:
 
 #### Pull Request!
 
-Cheers. 🥳
+Cheers 🥳
+
+# How to Find Version, VersionCode and Signature Key?
+
+![Check User-Agent Header in Requests for version and version code](https://i.ibb.co/grTDTGD/version-code.png)
+
+## To Find out Signature
+1. Install Frida using `pip install frida`
+2. Run [frida-server](https://github.com/frida/frida/releases) on your device using adb.
+3. Run Instagram on Your Phone or Emulator
+4. Put Below Code in a File Name `script.js` and Run Using Python (`python script.py`):
+```python
+import frida, sys
+
+def on_message(message, data):
+    print(message)
+
+process = frida.get_usb_device().attach('com.instagram.android')
+
+jscode = """
+Interceptor.attach(Module.findExportByName("libscrambler.so", "_ZN9Scrambler9getStringESs"), {
+    onLeave: function (retval) {
+        console.log(Memory.readCString(retval));
+    }
+});
+"""
+
+script = process.create_script(jscode)
+script.on('message', on_message)
+print('[*] Running sniffer')
+script.load()
+sys.stdin.read()
+```
