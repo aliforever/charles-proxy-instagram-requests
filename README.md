@@ -4,9 +4,10 @@ Instagram Private API Requests Exported From Charles Proxy
 Requests are separated by Instagram's Android versions
 
 How to Contibute:
-## Note: You should have a Facebook accoount and an Instagram account associated with it. (Login to Instagram with Facebook)
 
-[1. Go to Researcher Settings on Facebook](https://www.facebook.com/whitehat/researcher-settings/)
+### Note: You should have a Facebook accoount and an Instagram account associated with it. (Login to Instagram with Facebook)
+
+1. [Go to Researcher Settings on Facebook](https://www.facebook.com/whitehat/researcher-settings/)
 
 2. Check "Enable user installed Certificate Authorities (CAs) for your Facebook account" and "Enable user installed CAs for your Whitehat Test Accounts."
 
