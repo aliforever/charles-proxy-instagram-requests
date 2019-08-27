@@ -5,7 +5,7 @@ Requests are separated by Instagram's Android versions
 
 How to Contibute:
 
-### Note: You should have a Facebook accoount and an Instagram account associated with it. (Login to Instagram with Facebook)
+### Note: You should have a Facebook account and an Instagram account associated with it. (Login to Instagram with Facebook)
 
 1. [Go to Researcher Settings on Facebook](https://www.facebook.com/whitehat/researcher-settings/)
 
@@ -29,6 +29,6 @@ How to Contibute:
 
 11. Move the exported file to its related Instagram android version.
 
-### 12. Pull Request!
+#### Pull Request!
 
-Cheers.
+Cheers. 🥳
