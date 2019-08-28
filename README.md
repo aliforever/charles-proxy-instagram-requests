@@ -3,7 +3,8 @@ Instagram Private API Requests Exported From Charles Proxy
 
 Requests are separated by Instagram's Android versions
 
-How to Contibute:
+
+# How to Contibute:
 
 ### Note: You should have a Facebook account and an Instagram account associated with it. (Login to Instagram with Facebook)
 
